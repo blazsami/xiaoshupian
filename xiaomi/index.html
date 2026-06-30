@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="小米官网 - 小米15系列 | 小米SU7 | Redmi Note 15 | 智能家居 | AIoT平台，2025年9月-10月期间小米官方商城">
+    <meta name="keywords" content="小米,小米15,小米SU7,Redmi,智能家居,AIoT,小米官网,2025">
+    <meta name="author" content="Xiaomi">
+    <title>小米官网 - 小米15系列 | 小米SU7 | 智能生活新篇章</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='15' y='15' width='70' height='70' rx='20' fill='%23ff6900'/%3E%3Ctext x='50' y='65' font-size='40' fill='white' text-anchor='middle' font-family='Arial'%3Emi%3C/text%3E%3C/svg%3E" type="image/svg+xml">
+    <!-- 外部样式表 -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- ==================== 顶部通知栏 ==================== -->
+    <div class="topbar" id="topbar" role="banner" aria-label="顶部通知">
+        <a href="#xiaomi15">🔥 小米15系列 新品发布<span class="hot-badge">HOT</span></a>
+        <span class="divider" aria-hidden="true">|</span>
+        <a href="#su7">🚗 小米SU7 火热交付中</a>
+        <span class="divider" aria-hidden="true">|</span>
+        <a href="#redmi">📱 Redmi Note 15 Pro 震撼上市</a>
+    </div>
+
+    <!-- ==================== 主导航 ==================== -->
+    <header class="header" id="header" role="banner" aria-label="主导航">
+        <div class="header-inner">
+            <div class="logo-area">
+                <a href="#" class="logo" aria-label="小米首页" title="小米官网">
+                    <div class="logo-icon">mi</div>
+                </a>
+                <nav aria-label="主导航菜单">
+                    <ul class="nav-links" id="navLinks">
+                        <li><a href="#xiaomi15" class="active">小米15<span class="nav-badge">新</span></a></li>
+                        <li><a href="#su7">小米汽车</a></li>
+                        <li><a href="#redmi">Redmi</a></li>
+                        <li><a href="#aiot">AIoT智能</a></li>
+                        <li><a href="#accessories">配件周边</a></li>
+                        <li><a href="#community">社区</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-actions">
+                <div class="search-box" role="search" aria-label="站内搜索">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+                        <circle cx="11" cy="11" r="8"/>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                    </svg>
+                    <input type="text" id="searchInput" placeholder="搜索小米产品..." aria-label="搜索框" autocomplete="off">
+                </div>
+                <button class="icon-btn" aria-label="用户中心" title="用户中心" id="userBtn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/>
+                    </svg>
+                </button>
+                <button class="icon-btn" aria-label="购物车" title="购物车" id="cartBtn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+                    </svg>
+                    <span class="cart-count" id="cartCount">2</span>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="菜单" aria-expanded="false" title="菜单">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== 移动端菜单 ==================== -->
+    <div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="移动端导航菜单">
+        <div class="mobile-search">
+            <input type="text" placeholder="搜索小米产品..." aria-label="移动端搜索">
+        </div>
+        <a href="#xiaomi15">🔥 小米15系列</a>
+        <a href="#su7">🚗 小米汽车 SU7</a>
+        <a href="#redmi">📱 Redmi Note 15 Pro</a>
+        <a href="#aiot">🏠 AIoT 智能家居</a>
+        <a href="#accessories">🎧 配件周边</a>
+        <a href="#community">💬 小米社区</a>
+    </div>
+
+    <!-- ==================== 主内容区 ==================== -->
+    <main class="main-content" id="mainContent">
+
+        <!-- 轮播区 -->
+        <section class="hero-section" id="heroCarousel" aria-label="产品轮播展示" role="region">
+            <div class="carousel-track" id="carouselTrack">
+                <!-- Slide 1: 小米15系列 -->
+                <div class="carousel-slide" data-index="0">
+                    <div class="slide-bg" style="background: linear-gradient(135deg, #0d0d0d 0%, #1a1a2e 40%, #16213e 100%);"></div>
+                    <div class="slide-content">
+                        <span class="slide-tag">✨ 2025年9月新品发布</span>
+                        <h2>小米15系列</h2>
+                        <p>骁龙8 Gen4 旗舰平台 | 徕卡光学镜头 | 全新HyperOS 3.0</p>
+                        <a href="#xiaomi15" class="slide-btn">立即探索 →</a>
+                    </div>
+                </div>
+                <!-- Slide 2: 小米SU7 -->
+                <div class="carousel-slide" data-index="1">
+                    <div class="slide-bg" style="background: linear-gradient(135deg, #1a1a1a 0%, #2c1810 50%, #1a1a1a 100%);"></div>
+                    <div class="slide-content">
+                        <span class="slide-tag">🚗 智能电动汽车</span>
+                        <h2>小米SU7</h2>
+                        <p>百公里加速2.78秒 | 800km超长续航 | 小米澎湃智能座舱</p>
+                        <a href="#su7" class="slide-btn">预约试驾 →</a>
+                    </div>
+                </div>
+                <!-- Slide 3: Redmi Note 15 -->
+                <div class="carousel-slide" data-index="2">
+                    <div class="slide-bg" style="background: linear-gradient(135deg, #1b0a2e 0%, #2d1045 50%, #1b0a2e 100%);"></div>
+                    <div class="slide-content">
+                        <span class="slide-tag">🔥 10月重磅新品</span>
+                        <h2>Redmi Note 15 Pro</h2>
+                        <p>2亿像素影像 | 120W秒充 | 旗舰级性能体验</p>
+                        <a href="#redmi" class="slide-btn">了解详情 →</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-btn prev" id="carouselPrev" aria-label="上一张"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg></button>
+            <button class="carousel-btn next" id="carouselNext" aria-label="下一张"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></button>
+            <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="轮播导航"></div>
+        </section>
+
+        <!-- 产品展示区：小米15系列 -->
+        <section class="section" id="xiaomi15" aria-labelledby="xiaomi15Title">
+            <div class="section-header">
+                <h2 class="section-title" id="xiaomi15Title">📱 小米15系列 · 旗舰新品</h2>
+                <a href="#" class="section-link">查看全部 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></a>
+            </div>
+            <div class="product-grid">
+                <a href="#" class="product-card" title="小米15 Pro">
+                    <div class="card-img">
+                        <span class="card-badge">新品</span>
+                        <div class="placeholder-img" style="background:linear-gradient(135deg,#e8eaf6,#c5cae9);" aria-hidden="true">📱</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-name">小米15 Pro</div>
+                        <div class="card-desc">骁龙8 Gen4 | 徕卡四摄 | 2K LTPO屏</div>
+                        <div class="card-price">¥4,999 <span class="original">¥5,299</span></div>
+                    </div>
+                </a>
+                <a href="#" class="product-card" title="小米15">
+                    <div class="card-img">
+                        <span class="card-badge orange">热卖</span>
+                        <div class="placeholder-img" style="background:linear-gradient(135deg,#fce4ec,#f8bbd0);" aria-hidden="true">📱</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-name">小米15</div>
+                        <div class="card-desc">小巧旗舰 | 50MP徕卡主摄 | 90W快充</div>
+                        <div class="card-price">¥3,999 <span class="original">¥4,299</span></div>
+                    </div>
+                </a>
+                <a href="#" class="product-card" title="小米15 Ultra">
+                    <div class="card-img">
+                        <span class="card-badge">旗舰</span>
+                        <div class="placeholder-img" style="background:linear-gradient(135deg,#e0e0e0,#bdbdbd);" aria-hidden="true">📷</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-name">小米15 Ultra</div>
+                        <div class="card-desc">1英寸大底 | 200MP长焦 | 钛金属版</div>
+                        <div class="card-price">¥6,499</div>
+                    </div>
+                </a>
+                <a href="#" class="product-card" title="小米15 Lite">
+                    <div class="card-img">
+                        <div class="placeholder-img" style="background:linear-gradient(135deg,#fff3e0,#ffe0b2);" aria-hidden="true">📱</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-name">小米15 Lite</div>
+                        <div class="card-desc">轻薄时尚 | 大电池 | 青春配色</div>
+                        <div class="card-price">¥2,499</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- 横幅区 -->
+        <div class="banner-row" aria-label="促销横幅">
+            <a href="#su7" class="banner-card" style="background:linear-gradient(135deg,#1a1a1a,#3d1f00);" title="小米SU7">
+                <div class="banner-bg" style="background:radial-gradient(ellipse at 70% 50%,rgba(255,105,0,0.4) 0%,transparent 60%);"></div>
+                <div class="banner-text">
+                    <h3>🚗 小米SU7</h3>
+                    <p>智能电动汽车 · 现在预约享优先交付</p>
+                </div>
+            </a>
+            <a href="#aiot" class="banner-card" style="background:linear-gradient(135deg,#0d2b1f,#1a4a35);" title="智能家居">
+                <div class="banner-bg" style="background:radial-gradient(ellipse at 30% 50%,rgba(76,175,80,0.3) 0%,transparent 60%);"></div>
+                <div class="banner-text">
+                    <h3>🏠 全屋智能</h3>
+                    <p>HyperOS Connect · 万物互联新体验</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- AIoT智能家居 -->
+        <section class="section" id="aiot" aria-labelledby="aiotTitle">
+            <div class="section-header">
+                <h2 class="section-title" id="aiotTitle">🏠 AIoT 智能家居</h2>
+                <a href="#" class="section-link">查看全部 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></a>
+            </div>
+            <div class="product-grid">
+                <a href="#" class="product-card" title="小米智能音箱Pro">
+                    <div class="card-img">
+                        <div class="placeholder-img" style="background:linear-gradient(135deg,#e8f5e9,#c8e6c9);" aria-hidden="true">🔊</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-name">小米智能音箱 Pro</div>
+                        <div class="card-desc">HyperOS AI助手 | 空间音频</div>
+                        <div class="card-price">¥599</div>
+                    </div>
+                </a>
+                <a href="#" class="product-card" title="小米电视S Pro">
+                    <div class="card-img">
+                        <span class="card-badge orange">爆款</span>
+                        <div class="placeholder-img" style="background:linear-gradient(135deg,#e3f2fd,#bbdefb);" aria-hidden="true">📺</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-name">小米电视 S Pro 75"</div>
+                        <div class="card-desc">Mini LED | 240Hz | 4K超清</div>
+                        <div class="card-price">¥4,999</div>
+                    </div>
+                </a>
+                <a href="#" class="product-card" title="小米空气净化器5">
+                    <div class="card-img">
+                        <div class="placeholder-img" style="background:linear-gradient(135deg,#f1f8e9,#dcedc8);" aria-hidden="true">🌀</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-name">小米空气净化器 5</div>
+                        <div class="card-desc">除甲醛增强 | 静音节能 | 智能联动</div>
+                        <div class="card-price">¥1,299</div>
+                    </div>
+                </a>
+                <a href="#" class="product-card" title="小米智能门锁X">
+                    <div class="card-img">
+                        <div class="placeholder-img" style="background:linear-gradient(135deg,#fafafa,#e0e0e0);" aria-hidden="true">🔐</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-name">小米智能门锁 X</div>
+                        <div class="card-desc">3D人脸识别 | 全自动锁体</div>
+                        <div class="card-price">¥1,799</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- 小米汽车专区 -->
+        <section class="car-section" id="su7" aria-labelledby="su7Title">
+            <div class="car-bg-pattern" aria-hidden="true"></div>
+            <div class="car-info">
+                <span class="car-tag">🚗 小米汽车</span>
+                <h2 id="su7Title">小米SU7</h2>
+                <p>澎湃智能座舱，人车家全生态无缝连接。<br>百公里加速仅需2.78秒，续航最高800公里。</p>
+                <a href="#" class="car-btn" id="testDriveBtn">🔑 立即预约试驾</a>
+            </div>
+            <div class="car-visual" aria-hidden="true">🏎️</div>
+        </section>
+
+        <!-- Redmi Note 15 -->
+        <section class="section" id="redmi" aria-labelledby="redmiTitle">
+            <div class="section-header">
+                <h2 class="section-title" id="redmiTitle">🔥 Redmi Note 15 系列</h2>
+                <a href="#" class="section-link">查看全部 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg></a>
+            </div>
+            <div class="product-grid">
+                <a href="#" class="product-card" title="Redmi Note 15 Pro+">
+                    <div class="card-img">
+                        <span class="card-badge">重磅</span>
+                        <div class="placeholder-img" style="background:linear-gradient(135deg,#f3e5f5,#e1bee7);" aria-hidden="true">📱</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-name">Redmi Note 15 Pro+</div>
+                        <div class="card-desc">200MP影像 | 120W秒充 | IP68</div>
+                        <div class="card-price">¥2,199 <span class="original">¥2,499</span></div>
+                    </div>
+                </a>
+                <a href="#" class="product-card" title="Redmi Note 15 Pro">
+                    <div class="card-img">
+                        <div class="placeholder-img" style="background:linear-gradient(135deg,#fff8e1,#ffecb3);" aria-hidden="true">📱</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-name">Redmi Note 15 Pro</div>
+                        <div class="card-desc">骁龙7+ Gen3 | 67W快充 | 大电池</div>
+                        <div class="card-price">¥1,699</div>
+                    </div>
+                </a>
+                <a href="#" class="product-card" title="Redmi Note 15">
+                    <div class="card-img">
+                        <div class="placeholder-img" style="background:linear-gradient(135deg,#e8eaf6,#c5cae9);" aria-hidden="true">📱</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-name">Redmi Note 15</div>
+                        <div class="card-desc">高刷屏 | 大内存 | 超值之选</div>
+                        <div class="card-price">¥1,199</div>
+                    </div>
+                </a>
+                <a href="#" class="product-card" title="Redmi Buds 6">
+                    <div class="card-img">
+                        <span class="card-badge orange">热销</span>
+                        <div class="placeholder-img" style="background:linear-gradient(135deg,#fce4ec,#f8bbd0);" aria-hidden="true">🎧</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-name">Redmi Buds 6</div>
+                        <div class="card-desc">主动降噪 | 40h续航 | 低延迟</div>
+                        <div class="card-price">¥299</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- 特色服务 -->
+        <div class="service-bar" aria-label="特色服务">
+            <a href="#" class="service-item" title="以旧换新">
+                <span class="service-icon" aria-hidden="true">🔄</span>
+                <span class="service-name">以旧换新</span>
+                <span class="service-desc">最高补贴¥800</span>
+            </a>
+            <a href="#" class="service-item" title="免费配送">
+                <span class="service-icon" aria-hidden="true">🚚</span>
+                <span class="service-name">免费配送</span>
+                <span class="service-desc">全国包邮 · 极速达</span>
+            </a>
+            <a href="#" class="service-item" title="7天无理由">
+                <span class="service-icon" aria-hidden="true">🛡️</span>
+                <span class="service-name">7天无理由</span>
+                <span class="service-desc">无忧退换货</span>
+            </a>
+            <a href="#" class="service-item" title="官方保修">
+                <span class="service-icon" aria-hidden="true">🔧</span>
+                <span class="service-name">官方保修</span>
+                <span class="service-desc">全国联保 · 值得信赖</span>
+            </a>
+        </div>
+
+    </main>
+
+    <!-- ==================== 页脚 ==================== -->
+    <footer class="footer" role="contentinfo" aria-label="页脚">
+        <div class="footer-inner">
+            <div class="footer-col">
+                <h4>产品</h4>
+                <ul>
+                    <li><a href="#">小米15系列</a></li>
+                    <li><a href="#">Redmi Note 15</a></li>
+                    <li><a href="#">小米SU7</a></li>
+                    <li><a href="#">智能家居</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>服务</h4>
+                <ul>
+                    <li><a href="#">以旧换新</a></li>
+                    <li><a href="#">售后服务</a></li>
+                    <li><a href="#">配送说明</a></li>
+                    <li><a href="#">门店查询</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>关于小米</h4>
+                <ul>
+                    <li><a href="#">公司信息</a></li>
+                    <li><a href="#">加入我们</a></li>
+                    <li><a href="#">投资者关系</a></li>
+                    <li><a href="#">可持续发展</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>联系我们</h4>
+                <ul>
+                    <li><a href="#">客服热线：400-100-5678</a></li>
+                    <li><a href="#">在线客服</a></li>
+                    <li><a href="#">小米社区</a></li>
+                    <li><a href="#">官方微博</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Xiaomi. All rights reserved. 小米公司 版权所有 | 京ICP备XXXXXXXX号 | 本页面为模拟演示页面</p>
+        </div>
+    </footer>
+
+    <!-- ==================== 回到顶部 ==================== -->
+    <button class="back-to-top" id="backToTop" aria-label="回到顶部" title="回到顶部">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <!-- ==================== Toast ==================== -->
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <!-- ==================== JavaScript ==================== -->
+     <script src="index.js"></script>
+</body>
+</html>
